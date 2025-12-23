@@ -34,7 +34,7 @@ dist_list = [
 
 dist_type = st.sidebar.selectbox("选择母体分布类型", dist_list)
 
-# --- 3. 动态分布参数设置 (专利亮点：精细化参数控制) ---
+# --- 3. 动态分布参数设置 ---
 st.sidebar.subheader("母体分布自定义参数")
 
 params = {}  # 存储特定分布参数
